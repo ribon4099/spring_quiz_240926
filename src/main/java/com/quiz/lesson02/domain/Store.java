@@ -12,6 +12,7 @@ public class Store {
 	private String introduce;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
+	
 	public int getId() {
 		return id;
 	}
