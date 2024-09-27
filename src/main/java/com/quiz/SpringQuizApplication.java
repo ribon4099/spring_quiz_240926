@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class}) // DB 설정 읽지 말라는 것
 @SpringBootApplication
 public class SpringQuizApplication {
 
